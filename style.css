@@ -1,0 +1,127 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+}
+
+.nav-links span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  height: 300px;
+  background: linear-gradient(135deg, #1e3a8a, #06b6d4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+}
+
+.hero-text span {
+  color: #facc15;
+}
+
+.tag {
+  background: rgba(255,255,255,0.2);
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.sub {
+  opacity: 0.8;
+}
+
+/* MAIN */
+.main {
+  padding: 20px;
+}
+
+/* GLASS CARD */
+.glass-card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: -60px;
+}
+
+/* INPUT */
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* RESULT */
+#result, #groundInfo {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+}
+
+/* PLAYERS */
+#playerList {
+  display: flex;
+  overflow-x: auto;
+}
+
+.player-card {
+  min-width: 120px;
+  margin: 10px;
+  padding: 10px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* AUTOCOMPLETE */
+#suggestions {
+  background: white;
+  color: black;
+}
+
+.suggestion {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  background: #eee;
+}

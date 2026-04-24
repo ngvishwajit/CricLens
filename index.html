@@ -1,0 +1,61 @@
+
+</html><!DOCTYPE html>
+<html>
+<head>
+  <title>CricLens</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <h1>🏏 CricLens</h1>
+  <div class="nav-links">
+    <span>Analysis</span>
+    <span>Players</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-text">
+    <p class="tag">⚡ CRICKET INTELLIGENCE ENGINE</p>
+    <h1>Decode Every <br><span>Player × Ground</span> Performance</h1>
+    <p class="sub">Smart insights based on pitch, conditions & player skill</p>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- ANALYSIS CARD -->
+  <div class="glass-card">
+
+    <input id="playerInput" placeholder="Search Player...">
+    <div id="suggestions"></div>
+
+    <select id="ground"></select>
+
+    <button id="analyzeBtn">Analyze</button>
+
+  </div>
+
+  <!-- RESULT -->
+  <div id="result"></div>
+
+  <!-- GROUND INFO -->
+  <div id="groundInfo"></div>
+
+  <!-- PLAYERS -->
+  <h2>🔥 Top Players</h2>
+  <div id="playerList"></div>
+
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
